@@ -95,7 +95,7 @@
     \newcommand*{\hourrow}[2]{%
         \addtocounter{hours}{1000 * \real{##2}}%
         \addtocounter{subhours}{1000 * \real{##2}}%
-        \unitrow{##1}{##2}{\@hourlyrate}{hours}%
+        \unitrow{##1}{##2}{\@hourlyrate}{}%
     }
     \renewcommand{\tabcolsep}{0.8ex}
     \setlength\LTleft{0pt}
